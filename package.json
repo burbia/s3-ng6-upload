@@ -1,0 +1,41 @@
+{
+  "name": "s3-ng6-upload",
+  "version": "1.0.0",
+  "description": "Allows you to upload angular 6 apps to S3 buckets.",
+  "main": "main.js",
+  "bin": {
+    "s3-ng6-upload": "./bin/s3-ng6-upload.js"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/burbia/s3-ng6-upload.git"
+  },
+  "keywords": [
+    "Amazon",
+    "S3",
+    "Node",
+    "Upload",
+    "Static"
+  ],
+  "author": "BurbiaTech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/burbia/s3-ng6-upload/issues"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1.17",
+    "crypto": "0.0.3",
+    "glob": "~3.2.1",
+    "mime": "~1.2.9",
+    "q": "~0.9.6"
+  },
+  "devDependencies": {
+    "chai": "~1.7.1",
+    "chai-things": "~0.2.0",
+    "mocha": "^2.3.3",
+    "promise-testing": "0.0.12",
+    "sinon": "~1.7.3",
+    "sinon-chai": "~2.4.0"
+  }
+}
